@@ -5,17 +5,17 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 		  category : { 
 		    name : 'SELF', //Will appear in the data.
 		    title : {
-		      media : {word : 'me'}, //Name of the category presented in the task.
+		      media : {word : 'Yo misma'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
-    		    	{word : 'black1.jpg'}, 
-    			{word : 'black2.jpg'}, 
-    			{word : 'black3.jpg'}, 
-    			{word : 'black4.jpg'}, 
-    			{word : 'black5.jpg'}, 
-    			{word : 'black6.jpg'}
+    		    	{word : 'Me1'}, 
+    			{word : 'Me2'}, 
+    			{word : 'Me3'}, 
+    			{word : 'Me4'}, 
+    			{word : 'Me5'}, 
+    			{word : 'Me6'}
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
@@ -30,12 +30,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Bomb'},
-				{word: 'Abuse'},
-				{word: 'Sadness'},
-				{word: 'Pain'},
-				{word: 'Poison'},
-				{word: 'Grief'}
+				{word: 'Pasiva'},
+				{word: 'Simplona'},
+				{word: 'Dependiente'},
+				{word: 'Supeditada'},
+				{word: 'Dócil'},
+				{word: 'Sumisa'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
@@ -44,23 +44,23 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			{
 			name : 'Empowered', //Attribute label
 			title : {
-				media : {word : 'Positive'}, //Name of the category presented in the task.
+				media : {word : 'Empowered'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Paradise'},
-				{word: 'Pleasure'},
-				{word: 'Cheer'},
-				{word: 'Wonderful'},
-				{word: 'Splendid'},
-				{word: 'Love'}
+				{word: 'Trabajadora'},
+				{word: 'Independiente'},
+				{word: 'Decidida'},
+				{word: 'Autónoma'},
+				{word: 'Ambiciosa'},
+				{word: 'Motivada'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
 
-  base_url : {//Where are your images at?
+  base_url : {//Where are your images at?CAN I REMOVE THIS AS I HAVE NO PICS?
     image : 'https://baranan.github.io/minno-tasks/images/'
   }}
   );
